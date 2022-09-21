@@ -1,0 +1,178 @@
+.main
+{
+
+
+    background-image: url(https://d3vlhkqyz4y38a.cloudfront.net/skin/frontend/cedcomnew/default/images/user-account/hero-bg.png);
+    margin: auto;
+    padding: 42px;
+    height: 330px;
+    background-repeat:no-repeat;
+}
+.forgot
+{
+    margin-left: 25%;
+    width: 19%;
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin-top:1%;
+}
+.button1
+{
+    margin-left: 25%;
+    background: #413bbc;
+    width: 19%;
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin-top:1%;
+}
+.main3{
+    margin-left: 17%;
+}
+.welcome
+{
+    margin-left: 17%;
+    font-size: 40px;
+    text-shadow: 2px 2px #c7c7c7;
+}
+.welcome1
+{
+
+    font-size: 22px;
+    margin-left: 17%;
+    text-shadow: 2px 2px #c7c7c7;
+}
+.hero
+{
+    width: 33%;
+
+    margin-top: -207px;
+    margin-left: 54%;
+}
+.login
+{
+    margin-left: 24%; 
+}
+.input1
+{
+    border: none;
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 16%;
+}
+.input2
+{
+    border: none;
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 16%;
+
+}
+.input3
+{
+    border: none;
+    background: #760eff;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 16%; 
+}
+
+
+
+
+
+@media(max-width:992px)
+{
+    .main
+{
+  
+    background-color: hsl(72deg 76% 90%);
+    margin: auto;
+    height: 191px;
+   
+}
+.main2
+{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.main3
+{
+    width: 100%;
+    margin: auto;
+}
+.hero
+{
+    width: 40%;
+    float: right;
+    margin-top: -319px;
+}
+.welcome
+{
+    margin-left: 17%;
+    font-size: 35px;
+    text-shadow: 2px 2px #c7c7c7;
+    margin: auto;
+}
+.welcome1
+{
+
+    font-size: 23px;
+    text-shadow: 2px 2px #c7c7c7;
+    margin: auto;
+    margin-top: 12px;
+}
+.hero
+{
+    width: 33%;
+
+    margin-top: -207px;
+    margin-left: 54%;
+    display: none;
+}
+
+.input1
+{
+    border: none;
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+}
+.input2
+{
+    border: none;
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 3%;
+    width: 100%;
+
+}
+.input3
+{
+    border: none;
+    background: #f1f1f1;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 16%; 
+}
+
+
+
+}
