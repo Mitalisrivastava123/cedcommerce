@@ -1,178 +1,271 @@
-.main
-{
+.main {
 
 
     background-image: url(https://d3vlhkqyz4y38a.cloudfront.net/skin/frontend/cedcomnew/default/images/user-account/hero-bg.png);
     margin: auto;
     padding: 42px;
     height: 330px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    /* background-color: hsl(72deg 76% 90%); */
 }
-.forgot
-{
-    margin-left: 25%;
+
+.text-login {
+    text-align: center;
+}
+
+.forgot {
+
+    margin-left: 43%;
     width: 19%;
     padding: 11px;
     border-radius: 8px;
     border: none;
-    color: #fff;
-    margin-top:1%;
+    color: black;
+    margin-top: -3%;
+    font-weight: 300;
 }
-.button1
-{
+
+.boxing {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.boxing1 {
+    display: none;
+}
+
+.back {
+    margin-left: 25%;
+    font-weight: 300;
+}
+
+.button1 {
     margin-left: 25%;
     background: #413bbc;
-    width: 19%;
+    width: 17%;
     padding: 11px;
     border-radius: 8px;
     border: none;
     color: #fff;
-    margin-top:1%;
+    margin-top: 1%;
 }
-.main3{
+
+.main3 {
     margin-left: 17%;
 }
-.welcome
-{
+
+.welcome {
     margin-left: 17%;
     font-size: 40px;
     text-shadow: 2px 2px #c7c7c7;
 }
-.welcome1
-{
+
+.welcome1 {
 
     font-size: 22px;
     margin-left: 17%;
     text-shadow: 2px 2px #c7c7c7;
 }
-.hero
-{
+
+.hero {
     width: 33%;
 
     margin-top: -207px;
     margin-left: 54%;
 }
-.login
-{
-    margin-left: 24%; 
+
+.login {
+    margin-left: 25%;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
-.input1
-{
+
+.input1 {
     border: none;
     background: #f1f1f1;
     padding: 16px;
     border-radius: 8px;
     margin-left: 25%;
     margin-top: 1%;
-    width: 16%;
+
 }
-.input2
-{
+
+.input2 {
     border: none;
     background: #f1f1f1;
     padding: 16px;
     border-radius: 8px;
     margin-left: 2%;
     margin-top: 1%;
-    width: 16%;
+
 
 }
-.input3
-{
+
+.input3 {
     border: none;
     background: #760eff;
     padding: 16px;
     border-radius: 8px;
     margin-left: 25%;
     margin-top: 1%;
-    width: 16%; 
+    width: 16%;
+}
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    font-weight: 300;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
 
 
 
 
+@media(max-width:992px) {
+    .main {
 
-@media(max-width:992px)
-{
-    .main
-{
-  
-    background-color: hsl(72deg 76% 90%);
-    margin: auto;
-    height: 191px;
-   
-}
-.main2
-{
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-}
-.main3
-{
-    width: 100%;
-    margin: auto;
-}
-.hero
-{
-    width: 40%;
-    float: right;
-    margin-top: -319px;
-}
-.welcome
-{
-    margin-left: 17%;
-    font-size: 35px;
-    text-shadow: 2px 2px #c7c7c7;
-    margin: auto;
-}
-.welcome1
-{
+        background-image: url(https://d3vlhkqyz4y38a.cloudfront.net/skin/frontend/cedcomnew/default/images/user-account/hero-bg.png);
+        margin: auto;
+        height: 191px;
 
-    font-size: 23px;
-    text-shadow: 2px 2px #c7c7c7;
-    margin: auto;
-    margin-top: 12px;
-}
-.hero
-{
-    width: 33%;
+    }
 
-    margin-top: -207px;
-    margin-left: 54%;
-    display: none;
-}
+    .main2 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 
-.input1
-{
-    border: none;
-    background: #f1f1f1;
-    padding: 16px;
-    border-radius: 8px;
-    width: 100%;
-    margin: auto;
-}
-.input2
-{
-    border: none;
-    background: #f1f1f1;
-    padding: 16px;
-    border-radius: 8px;
-    margin-top: 3%;
-    width: 100%;
+    .main3 {
+        width: 100%;
+        margin: auto;
+        display: none;
+    }
 
-}
-.input3
-{
-    border: none;
-    background: #f1f1f1;
-    padding: 16px;
-    border-radius: 8px;
-    margin-left: 25%;
-    margin-top: 1%;
-    width: 16%; 
-}
+    .hero {
+        width: 40%;
+        float: right;
+        margin-top: -319px;
+    }
+
+    .welcome {
+        margin-left: 17%;
+        font-size: 35px;
+        text-shadow: 2px 2px #c7c7c7;
+        margin: auto;
+        display: none;
+    }
+
+    .welcome1 {
+
+        font-size: 23px;
+        text-shadow: 2px 2px #c7c7c7;
+        margin: auto;
+        margin-top: 12px;
+        display: none;
+    }
+
+    .hero {
+        width: 33%;
+
+        margin-top: -207px;
+        margin-left: 54%;
+        display: none;
+    }
+
+    .input1 {
+        border: none;
+        background: #f1f1f1;
+        padding: 16px;
+        border-radius: 8px;
+        margin: auto;
+        display: block;
+    }
 
 
 
+    .input2 {
+        border: none;
+        background: #f1f1f1;
+        padding: 16px;
+        border-radius: 8px;
+        margin-top: 3%;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 10px;
+
+
+    }
+
+    .input3 {
+        border: none;
+        background: #f1f1f1;
+        padding: 16px;
+        border-radius: 8px;
+        margin-left: 25%;
+        margin-top: 1%;
+        width: 16%;
+    }
+
+    .button1 {
+        background: #413bbc;
+        padding: 11px;
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        margin: auto;
+        display: block;
+        width: 207px;
+        margin: auto;
+        position: relative;
+        top: 17px;
+        height: 44px;
+    }
+
+    .forgot {
+        width: 100%;
+        padding: 11px;
+        border-radius: 8px;
+        border: none;
+        color: black;
+        margin-top: 7%;
+        margin-left: 0%;
+    }
+
+    .login {
+        margin-left: 15%;
+        font-size: 17px;
+    }
+
+    .main5 {
+        margin-top: 160px;
+    }
+
+    .back {
+        margin-left:5%;
+        position: relative;
+        bottom: 28px;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .boxing {
+        display: none;
+    }
+
+    .text-login {
+        display: none;
+    }
+
+ 
 }
